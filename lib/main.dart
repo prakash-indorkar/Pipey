@@ -56,7 +56,7 @@ class _HomeState extends State<Home> {
               ),
               Container(
                 child: YoutubePlayer(
-                  autoPlay: false,
+                  autoPlay: true,
                   context: context,
                   source: _videoUrl,
                   quality: YoutubeQuality.LOW,
